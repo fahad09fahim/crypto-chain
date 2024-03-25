@@ -1,4 +1,5 @@
 
+import Community from "./component/community/Community";
 import Header from "./component/header/Header"
 import Banner from './component/sections/Banner';
 import Investor from "./component/sections/investor/Investor";
@@ -18,6 +19,7 @@ function App() {
       <Investor/>
       <Process/>
       <Statistics/>
+      <Community/>
     </>
   )
 }
