@@ -1,6 +1,7 @@
 
 import Header from "./component/header/Header"
 import Banner from './component/sections/Banner';
+import Investor from "./component/sections/investor/Investor";
 
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header/>
       <Banner/>
+      <Investor/>
     </>
   )
 }
