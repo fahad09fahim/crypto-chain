@@ -1,4 +1,5 @@
 
+import Footer from "./component/Footer/Footer";
 import Community from "./component/community/Community";
 import Header from "./component/header/Header"
 import Banner from './component/sections/Banner';
@@ -20,6 +21,7 @@ function App() {
       <Process/>
       <Statistics/>
       <Community/>
+      <Footer/>
     </>
   )
 }
