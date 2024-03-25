@@ -48,7 +48,7 @@ const Header = () => {
       </div>
       {/* navlinks for large device */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 cursor-pointer flex gap-9 text-lg ">
+        <ul className="menu menu-horizontal px-1 cursor-pointer flex gap-9 text-lg font-semibold text-custom-black ">
           {navLinks}
         </ul>
       </div>

@@ -9,7 +9,7 @@ export default {
       colors:{
         "colorOne":"#741FF5",
         "colorTwo":"#E348FF",
-        "banner-text":"#333",
+        "custom-black":"#333",
       }
     },
   },
