@@ -11,7 +11,7 @@ const Header = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 px-5 lg:px-28 mt-5">
+    <div className="navbar p-2 md:px-10  ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,7 +52,7 @@ const Header = () => {
           {navLinks}
         </ul>
       </div>
-      <div className="navbar-end flex justify-center items-center gap-6">
+      <div className="navbar-end flex  items-center gap-6">
         <a  className="hidden lg:flex">
           <FaFacebookF className="h-6 w-6 text-colorOne" />
         </a>

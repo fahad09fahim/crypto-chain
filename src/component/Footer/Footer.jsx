@@ -4,7 +4,7 @@ import { FaDiscord, FaFacebookF, FaTwitter } from "react-icons/fa";
 const Footer = () => {
     const current = new Date();
   return (
-    <div className="flex flex-col items-center justify-center text-center gap-5">
+    <div className="flex flex-col items-center justify-center text-center gap-5 p-3">
       <div >
         <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-colorOne via-colorOne to-colorTwo text-3xl font-bold my-5">Crypto Chain</h1>
         <p className="text-custom-black opacity-85">
@@ -12,7 +12,7 @@ const Footer = () => {
           place.
         </p>
       </div>
-      <div className="flex justify-between gap-7">
+      <div className="flex justify-between gap-2 md:gap-7 text-xs md:text-lg">
         <a href="#">Home</a>
         <a href="">Privacy policy</a>
         <a href="">Terms of use</a>

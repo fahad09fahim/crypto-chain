@@ -6,25 +6,25 @@ import meta from "../../../assets/iconInvestor/meta.png";
 
 const Investor = () => {
     return (
-        <div id="investor-bg" className="m-24 flex flex-col">
+        <div id="investor-bg" className="mt-24 px-15 md:px-20 flex flex-col">
             <div>
-             <h2 className="text-[24px] font-bold text-center">Powered By Amazing Investors</h2>
+             <h2 className="text-xl md:text-3xl  font-bold text-center">Powered By Amazing Investors</h2>
             </div>
-            <div className="flex justify-between items-center mt-10 p-3">
-              <div className="flex items-center gap-1 text-lg font-bold text-colorOne">
-                <img src={bitgo} alt="" />
+            <div className="grid grid-cols-4 place-items-center mt-10">
+              <div className="flex items-center gap-1 text-xs md:text-lg font-bold text-colorOne">
+                <img className="h-5 md:h-10 w-5 md:w-10 " src={bitgo} alt="" />
                 <h2>BitGo</h2>
               </div>
-              <div className="flex items-center gap-1 text-lg font-bold text-colorOne">
-                <img src={coinBase} alt="" />
+              <div className="flex items-center gap-1 text-xs md:text-lg font-bold text-colorOne">
+                <img className="h-5 md:h-10 w-5 md:w-10 " src={coinBase} alt="" />
                 <h2>Coin Base</h2>
               </div>
-              <div className="flex items-center gap-1 text-lg font-bold text-colorOne">
-                <img src={trust} alt="" />
+              <div className="flex items-center gap-1 text-xs md:text-lg font-bold text-colorOne">
+                <img className="h-5 md:h-10 w-5 md:w-10 " src={trust} alt="" />
                 <h2>Trust wallet</h2>
               </div>
-              <div className="flex items-center gap-1 text-lg font-bold text-colorOne">
-                <img src={meta} alt="" />
+              <div className="flex items-center gap-1 text-xs md:text-lg font-bold text-colorOne">
+                <img className="h-5 md:h-10 w-5 md:w-10 " src={meta} alt="" />
                 <h2>Meta Musk</h2>
               </div>
             </div>
