@@ -6,8 +6,8 @@ const Banner = () => {
   return (
     <div id="bg-bottom ">
       <div id="banner-bg" className="flex flex-col-reverse  md:flex-row items-center justify-center md:justify-between  px-2 md:px-24">
-        <div className="">
-          <h1 className="text-2xl tracking-wider md:text-5xl  text-custom-black  font-bold mt-9">
+        <div className="relative z-1 max-w-[62rem] mx-auto  mb-[4rem] md:mb-20 lg:mb-[6rem]">
+          <h1 className=" tracking-wider   text-custom-black font-semibold text-[2.5rem] leading-[3.25rem] md:text-[2.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[3.75rem] xl:leading-[4.5rem] mt-9">
             Discover New Horizons <br /> in the{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-colorOne via-colorOne to-colorTwo">
               Dynamic Metaverse

@@ -37,17 +37,17 @@ const Header = () => {
             {navLinks}
           </ul>
         </div>
-        <a id="navLogo" className="text-3xl hidden lg:flex  ">
+        <a id="navLogo" className=" lg:text-[2rem] hidden lg:flex  ">
           Crypto Chain
         </a>
       </div>
       <div className="navbar-center flex lg:hidden">
-        <a id="navLogo" className="text-xl">
+        <a id="navLogo" className="text-[1.2rem] md:text-[1.75rem]">
           Crypto Chain
         </a>
       </div>
       {/* navlinks for large device */}
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden  lg:flex">
         <ul className="menu menu-horizontal px-1 cursor-pointer flex gap-9 text-lg font-semibold text-custom-black ">
           {navLinks}
         </ul>
@@ -59,7 +59,7 @@ const Header = () => {
         <a className="hidden lg:flex" >
           <FaTwitter className="h-6 w-6 text-colorOne" />
         </a>
-        <a className="btn px-2 py-1 lg:px-3.5 lg:py-2 text-white bg-gradient-to-r from-colorOne via-colorOne to-colorTwo">
+        <a className="btn px-[0.50rem] py-[0.25rem] md:px-[0.75rem] md:py-[0.50rem] lg:px-[1.25rem] lg:py-[1rem] text-white bg-gradient-to-r from-colorOne via-colorOne to-colorTwo">
           Connect wallet
         </a>
       </div>
