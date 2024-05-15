@@ -6,7 +6,7 @@ import meta from "../../../assets/iconInvestor/meta.png";
 
 const Investor = () => {
     return (
-        <div id="investor-bg" className="mt-24 px-15 md:px-20 flex flex-col">
+        <div id="investor-bg" className="relative mt-24 px-15 md:px-20 flex flex-col">
             <div>
              <h2 className="text-xl md:text-3xl  font-bold text-center">Powered By Amazing Investors</h2>
             </div>
