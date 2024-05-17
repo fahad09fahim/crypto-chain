@@ -1,7 +1,7 @@
 const Faq = () => {
   return (
     <div className="relative mx-auto px-[2rem] md:px-[1rem] lg:mx-[20rem] text-center">
-      <h2 className="text-4xl font-medium mb-2  ">FAQ</h2>
+      <h2 className="text-2xl md:text-4xl lg:text-6xl font-medium mb-2  ">FAQ</h2>
       <p className="text-lg text-slate-400">Every thing you need to know about the product and billing</p>
       <div className="mt-4">
         <div className="collapse bg-base-100 border-b-[1px]">
